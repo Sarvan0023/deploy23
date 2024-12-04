@@ -1,0 +1,44 @@
+.team-section {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  .team-section h2{
+    color: orange;
+  }
+  .team-section p {
+    color: #939393;
+  }
+  .team-section h3{
+    color: orange;
+  }
+  .team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .team-card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .team-socials a {
+    color: orange;
+    margin: 0 2px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
